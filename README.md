@@ -4,13 +4,6 @@
 
 LiveDemo: https://clauseguard-frontend-theta.vercel.app/
 
----
-
-🔗 **Live App:** [https://frontend-bistrobyte.vercel.app](https://frontend-bistrobyte.vercel.app)  
-📡 **Backend API:** [https://clause-guard-backend.onrender.com](https://clause-guard-backend.onrender.com)
-
----
-
 ## ✨ Features
 
 - 📄 **PDF Agreement Parsing:** Drag-and-drop contract upload with instant text extraction.
