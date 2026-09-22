@@ -1,0 +1,15 @@
+# Environment secrets
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# Virtual Environment & Node Modules
+venv/
+node_modules/
+__pycache__/
+.next/
+
+# System Files
+.DS_Store
+Thumbs.db
