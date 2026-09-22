@@ -9,9 +9,14 @@ load_dotenv()
 
 app = FastAPI(title="ClauseGuard API")
 
+# Explicit CORS settings for local dev and production deployment
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://*.vercel.app",  # Matches all Vercel deployment URLs
+        "*"  # Fallback wildcard to ensure smooth frontend connections
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
